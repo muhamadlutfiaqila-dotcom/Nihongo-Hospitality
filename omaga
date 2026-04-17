@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Kosakata Bahasa Jepang Perhotelan</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #c0392b;
+            --accent-color: #ecf0f1;
+            --text-color: #333;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: var(--white);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            box-shadow: var(--shadow);
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--primary-color);
+            padding: 8px 15px;
+            margin: 5px;
+            font-weight: 600;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-color);
+            color: var(--white);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .category-section {
+            background: var(--white);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow);
+        }
+
+        .category-title {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .kanji {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .reading {
+            color: #666;
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        .meaning {
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .phrase-card {
+            background: #fff5f5;
+            border-left: 4px solid var(--secondary-color);
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: var(--primary-color);
+            color: var(--white);
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 600px) {
+            th:nth-child(2), td:nth-child(2) {
+                display: none;
+            }
+            .kanji {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ホテル用語集</h1>
+    <p>Kosakata & Ungkapan Bahasa Jepang dalam Perhotelan</p>
+</header>
+
+<nav>
+    <a href="#penyambutan">Penyambutan</a>
+    <a href="#checkin">Check-in</a>
+    <a href="#fasilitas">Fasilitas</a>
+    <a href="#pelayanan">Pelayanan</a>
+    <a href="#keluhan">Keluhan</a>
+</nav>
+
+<div class="container">
+
+    <!-- Section: Penyambutan -->
+    <section id="penyambutan" class="category-section">
+        <h2 class="category-title">挨拶 (Penyambutan & Salam)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kanji / Kana</th>
+                    <th>Romaji</th>
+                    <th>Arti Indonesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="kanji">いらっしゃいませ</span></td>
+                    <td class="reading">Irasshaimase</td>
+                    <td class="meaning">Selamat datang</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">おはようございます</span></td>
+                    <td class="reading">Ohayou gozaimasu</td>
+                    <td class="meaning">Selamat pagi</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">こんにちは</span></td>
+                    <td class="reading">Konnichiwa</td>
+                    <td class="meaning">Selamat siang</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">こんばんは</span></td>
+                    <td class="reading">Konbanwa</td>
+                    <td class="meaning">Selamat malam</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">かしこまりました</span></td>
+                    <td class="reading">Kashikomarimashita</td>
+                    <td class="meaning">Baik, saya mengerti</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">少々お待ちください</span></td>
+                    <td class="reading">Shoushou omachi kudasai</td>
+                    <td class="meaning">Mohon tunggu sebentar</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section: Check-in -->
+    <section id="checkin" class="category-section">
+        <h2 class="category-title">チェックイン (Check-in & Administrasi)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kanji / Kana</th>
+                    <th>Romaji</th>
+                    <th>Arti Indonesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="kanji">ご予約</span></td>
+                    <td class="reading">Goyoyaku</td>
+                    <td class="meaning">Reservasi</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">お名前</span></td>
+                    <td class="reading">Onamae</td>
+                    <td class="meaning">Nama (Anda)</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">パスポート</span></td>
+                    <td class="reading">Pasupooto</td>
+                    <td class="meaning">Paspor</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">署名 / サイン</span></td>
+                    <td class="reading">Shomei / Sain</td>
+                    <td class="meaning">Tanda tangan</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">鍵 / カードキー</span></td>
+                    <td class="reading">Kagi / Kaado kii</td>
+                    <td class="meaning">Kunci / Kartu kunci</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-top: 20px;">
+            <h3>Frasa Penting:</h3>
+            <div class="phrase-card">
+                <strong>ご予約は承っておりますか？</strong><br>
+                <em>Goyoyaku wa uketamawatte orimasu ka?</em><br>
+                "Apakah Anda sudah memiliki reservasi?"
+            </div>
+            <div class="phrase-card">
+                <strong>こちらにご署名をお願いします。</strong><br>
+                <em>Kochira ni goshomei o onegaishimasu.</em><br>
+                "Mohon tanda tangan di sini."
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Fasilitas -->
+    <section id="fasilitas" class="category-section">
+        <h2 class="category-title">施設 (Fasilitas Hotel)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kanji / Kana</th>
+                    <th>Romaji</th>
+                    <th>Arti Indonesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="kanji">客室</span></td>
+                    <td class="reading">Kyakushitsu</td>
+                    <td class="meaning">Kamar tamu</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">朝食会場</span></td>
+                    <td class="reading">Choushoku kaijou</td>
+                    <td class="meaning">Tempat sarapan</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">大浴場</span></td>
+                    <td class="reading">Daiyokujou</td>
+                    <td class="meaning">Pemandian umum besar</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">禁煙ルーム</span></td>
+                    <td class="reading">Kinen ruumu</td>
+                    <td class="meaning">Kamar bebas rokok</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">エレベーター</span></td>
+                    <td class="reading">Erebeetaa</td>
+                    <td class="meaning">Lift</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section: Pelayanan -->
+    <section id="pelayanan" class="category-section">
+        <h2 class="category-title">サービス (Pelayanan)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kanji / Kana</th>
+                    <th>Romaji</th>
+                    <th>Arti Indonesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="kanji">荷物</span></td>
+                    <td class="reading">Nimotsu</td>
+                    <td class="meaning">Barang bawaan / Bagasi</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">お預かり</span></td>
+                    <td class="reading">Oazukari</td>
+                    <td class="meaning">Menitipkan / Menyimpan</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">両替</span></td>
+                    <td class="reading">Ryougae</td>
+                    <td class="meaning">Tukar uang</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">タクシーを呼ぶ</span></td>
+                    <td class="reading">Takushii o yobu</td>
+                    <td class="meaning">Memanggil taksi</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section: Keluhan -->
+    <section id="keluhan" class="category-section">
+        <h2 class="category-title">トラブル (Masalah & Keluhan)</h2>
+        <div class="phrase-card">
+            <strong>申し訳ございません。</strong><br>
+            <em>Moushiwake gozaimasen.</em><br>
+            "Mohon maaf sebesar-besarnya (Sangat formal)."
+        </div>
+        <div class="phrase-card">
+            <strong>すぐに確認いたします。</strong><br>
+            <em>Sugu ni kakunin itashimasu.</em><br>
+            "Akan segera saya konfirmasi/cek."
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kanji / Kana</th>
+                    <th>Romaji</th>
+                    <th>Arti Indonesia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="kanji">故障</span></td>
+                    <td class="reading">Koshou</td>
+                    <td class="meaning">Kerusakan</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">紛失</span></td>
+                    <td class="reading">Funshitsu</td>
+                    <td class="meaning">Kehilangan</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">お湯が出ない</span></td>
+                    <td class="reading">Oyu ga denai</td>
+                    <td class="meaning">Air panas tidak keluar</td>
+                </tr>
+                <tr>
+                    <td><span class="kanji">隣がうるさい</span></td>
+                    <td class="reading">Tonari ga urusai</td>
+                    <td class="meaning">Sebelah berisik</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Panduan Bahasa Jepang Perhotelan</p>
+    <p style="font-size: 0.8rem; margin-top: 10px;">Dibuat untuk keperluan belajar staf hospitality.</p>
+</footer>
+
+</body>
+</html>
